@@ -48,5 +48,5 @@ jobs:
      - uses: akhileshns/heroku-deploy@v3.6.8
        with:
          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-         heroku_app_name: 'social-network'
+         heroku_app_name: 'jjn-social-network'
          heroku_email: 'jacek.jan.nowak@gmail.com'
